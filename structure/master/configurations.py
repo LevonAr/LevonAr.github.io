@@ -4,3 +4,9 @@ class BaseCongig(object):
 	'''
 	DEBUG = True
 	TESTING = False
+	
+class ProductionConfig(BaseCongig):
+	"""
+	Production specific config
+	"""
+	DEBUG = False
